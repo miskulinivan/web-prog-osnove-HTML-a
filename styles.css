@@ -1,0 +1,124 @@
+.header_title {
+    text-align: center;
+    color: black;
+}
+
+body {
+    font-size: 28px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient( gray, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.o_nama {
+    text-align: center;
+    font-size: 60px;
+}
+
+.podnaslov {
+    text-align: center;
+    border: dotted;
+}
+
+.yoda {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.naslov-registracija {
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 250px;
+    border: 5px double black;
+    text-align: center;
+}
+
+.form h2 {
+    font-style: italic;
+}
+
+.form-kontakt {
+    margin: 0 auto;
+    width: 250px;
+    border: 5px double black;
+    text-align: center;
+}
+
+.form * {
+    font-style: italic;
+    border: black solid;
+}
+
+.header_postani_predavac {
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+.javi_se {
+    text-align: center;
+    font-style: italic;
+}
+
+.header_cjenik {
+    text-align: center;
+    font-style: italic;
+}
+
+.cjenik_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cjenik_table th:hover {
+    color: red;
+}
+
+.cjenik_table tr:hover {
+    color: red;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}

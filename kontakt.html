@@ -6,28 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
     <title>Kontakti</title>
 </head>
 
 <body>
-    <div class="header_kontakt">
-        <header class="header_kontakt">
-            <h1>Dobrodošli na našu stranicu</h1>
-        </header>
-    </div>
 
-    <nav class="navigation">
-        <a href="index.html">Početna</a>
-        <a href="postani-predavac.html">Postani predavač</a>
-        <a href="registracija.html">Registracija</a>
-        <a href="cjenik.html">Cjenik</a>
-    </nav>
 
-    <section>
+    <ul class="navigation">
+        <li><a href="index.html" class="active">Početna</a></li>
+        <li><a href="cjenik.html">Cjenik</a></li>
+        <li><a href="registracija.html">Registracija</a></li>
+        <li><a href="postani-predavac.html">Postani jedan od nas</a></li>
+    </ul>
+
+
+    <form class="form">
         <h2 class="section_kontakt">Pošaljite upit</h2>
-    </section>
-
-    <form id="form_kontakt">
         <label for="fname">Ime:</label><br>
         <input type="text" id="fname" name="fname" placeholder="Ime"><br>
         <label for="lname">Prezime:</label><br>
